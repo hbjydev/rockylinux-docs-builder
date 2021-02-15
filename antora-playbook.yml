@@ -4,7 +4,7 @@ site:
   start_page: rocky-linux::index.adoc
 content:
   sources:
-    - url: ../rockylinux-docs
+    - url: https://github.com/hbjydev/rockylinux-docs
       branches: main
 ui:
   bundle:
