@@ -1,0 +1,12 @@
+---
+site:
+  title: Rocky Linux Documentation
+  start_page: rocky-linux::apache-sites-enabled.adoc
+content:
+  sources:
+    - url: https://github.com/hbjydev/rockylinux-docs.git
+      branches: main
+ui:
+  bundle:
+    url: https://droui.vercel.app/ui-bundle.zip
+    snapshot: true

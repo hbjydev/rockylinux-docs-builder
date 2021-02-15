@@ -1,0 +1,31 @@
+{
+  "name": "docs.rockylinux.org",
+  "version": "1.0.0",
+  "description": "The Rocky Linux documentation site source code.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocky-linux/docs.rockylinux.org.git"
+  },
+  "keywords": [
+    "docs",
+    "rocky-linux",
+    "rockylinux",
+    "rocky",
+    "linux",
+    "antora"
+  ],
+  "author": "Hayden Young <hi@hbjy.dev> (https://hbjy.dev)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/rocky-linux/docs.rockylinux.org/issues"
+  },
+  "homepage": "https://github.com/rocky-linux/docs.rockylinux.org#readme",
+  "devDependencies": {
+    "@antora/cli": "^2.3.4",
+    "@antora/site-generator-default": "^2.3.4"
+  }
+}
